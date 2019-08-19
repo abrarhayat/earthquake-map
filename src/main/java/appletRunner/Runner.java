@@ -1,5 +1,7 @@
 package appletRunner;
 
+import map.EarthquakeCityMap;
+
 /**
  * @author abrar
  * since 7/19/2019
@@ -7,7 +9,7 @@ package appletRunner;
 
 public class Runner {
     public static void main(String [] args) {
-        finalModule.EarthquakeCityMap finalModule = new finalModule.EarthquakeCityMap();
-        finalModule.main("finalModule.EarthquakeCityMap");
+        EarthquakeCityMap map = new EarthquakeCityMap();
+        map.main("map.EarthquakeCityMap");
     }
 }

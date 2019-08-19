@@ -1,6 +1,7 @@
-package finalModule;
+package markers;
 
 import de.fhpotsdam.unfolding.data.PointFeature;
+import processing.core.PConstants;
 import processing.core.PGraphics;
 
 /**
@@ -75,8 +76,9 @@ public abstract class EarthquakeMarker extends CommonMarker implements Comparabl
         float rectY = y - textSize - 5;
         pg.textSize(textSize);
         pg.fill(pg.color(255, 255, 255));
-        pg.rect(rectX, rectY, pg.textWidth(title) + 15, 20, 2);
+        pg.rect(rectX, rectY, pg.textWidth(title) + 15, 20);
         pg.fill(0);
+        pg.textAlign(PConstants.LEFT, PConstants.TOP);
         pg.text(title, rectX + 5, rectY + 5);
     }
 

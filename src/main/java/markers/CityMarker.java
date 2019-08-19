@@ -1,6 +1,6 @@
-package finalModule;
+package markers;
 
-import Utils.GraphicsUtils;
+import utils.GraphicsUtils;
 import de.fhpotsdam.unfolding.data.Feature;
 import de.fhpotsdam.unfolding.data.PointFeature;
 import de.fhpotsdam.unfolding.geo.Location;

@@ -1,4 +1,4 @@
-package finalModule;
+package map;
 
 import de.fhpotsdam.unfolding.UnfoldingMap;
 import de.fhpotsdam.unfolding.data.Feature;
@@ -11,6 +11,7 @@ import de.fhpotsdam.unfolding.marker.MultiMarker;
 import de.fhpotsdam.unfolding.providers.MBTilesMapProvider;
 import de.fhpotsdam.unfolding.providers.Microsoft;
 import de.fhpotsdam.unfolding.utils.MapUtils;
+import markers.*;
 import parsing.ParseFeed;
 import processing.core.PApplet;
 import processing.core.PShape;
