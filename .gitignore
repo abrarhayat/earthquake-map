@@ -1,0 +1,12 @@
+.*
+!.gitignore
+.gradle
+.idea
+.idea/workspace.xml
+*.ipr
+*.iws
+*.iml
+target
+build
+out
+test-out
